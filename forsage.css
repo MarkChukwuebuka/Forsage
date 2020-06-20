@@ -4,11 +4,6 @@ nav{
 nav a{
 	color: white;
 }
-div.top{
-	background-image: url("images/image2.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-}
 
 a{
 	text-decoration: none;
@@ -38,10 +33,19 @@ i.ilink{
 a.join-now{
 	color: white;
 	border-radius: 19px;
-    background: #8f00b3;;
+    background: #8f00b3;
     padding: 12px;
     font-size: 1.2em;
 }
+
+#whatsapp{
+	background: green;
+}
+
+#telegram{
+	background: blue;
+}
+
 
 .steps{
 	background-color: black;
@@ -49,4 +53,28 @@ a.join-now{
 
 .each-step{
 	border: 1px solid white;
+}
+
+div.each-step, div.steps p{
+	font-size: 1em;
+	color: white;
+}
+div.steps h1{
+	color: white;
+}
+
+div.steps i{
+	color: white;
+}
+
+.fa-copyright{
+	font-size: 0.9em;
+}
+
+a:link{
+	text-decoration: none;
+}
+
+a:hover{
+	color:black;
 }
