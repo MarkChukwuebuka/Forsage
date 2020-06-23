@@ -83,3 +83,7 @@ a:link{
 a.nav-link:hover, a.navbar-brand:hover{
 	color: black;
 }
+
+li{
+	list-style-type: none;
+}
