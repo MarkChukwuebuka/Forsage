@@ -17,9 +17,6 @@ h1, h2, h3, h4, h5, h6{
 h2{
 	color: white;
 }
-button {
-	background-color: white !important;
-}
 
 i{
 	font-size: 3em;
@@ -39,11 +36,11 @@ a.join-now{
     font-size: 1.2em;
 }
 
-#whatsapp{
+#whatsapp, #whatsappbutton{
 	background: green;
 }
 
-#telegram{
+#telegram, #telegrambutton{
 	background: blue;
 }
 
@@ -64,7 +61,8 @@ div.steps h1{
 	color: white;
 }
 
-div.steps i{
+div.steps i, a#whatsappbutton i, 
+a#telegrambutton i{
 	color: white;
 }
 
@@ -76,7 +74,8 @@ a:link{
 	text-decoration: none;
 }
 
-.button a:hover, a#whatsapp:hover, a#telegram:hover{
+.button a:hover, a#whatsapp:hover, a#telegram:hover, 
+a#telegrambutton:hover, a#whatsappbutton:hover{
 	background: black;
 }
 
@@ -86,4 +85,23 @@ a.nav-link:hover, a.navbar-brand:hover{
 
 li{
 	list-style-type: none;
+}
+a#whatsappbutton, a#telegrambutton {
+	font-size: 10px;
+	color: white !important;
+}
+#whatsappbutton {
+	position: fixed;
+	bottom:90px;
+	right: 8px;
+}
+
+#telegrambutton {
+	position: fixed;
+	bottom:30px;
+	right: 8px;
+}
+
+a#whatsappbutton, a#telegrambutton{
+	border-radius:100%;
 }
