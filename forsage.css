@@ -18,7 +18,7 @@ nav p {
 }
  .underline {
  	text-decoration: underline;
- 	font-size: 150%;
+ 	font-size: 120%;
  	font-weight: bold;
  }
 div.send  {
@@ -31,13 +31,13 @@ div.send  {
 
 div.send {
 	background-color: red;
-	border-radius: 5px;
-
-	
+	border-radius: 5px;	
 }
+
 i{
 	color: white;
 }
+
 a{
 	text-decoration:none;
 }
@@ -45,3 +45,28 @@ a{
 a:hover{
 	text-decoration: none;
 }
+
+div.button {
+	background-color: rgb(1, 116, 119);
+	border-radius: 3px;
+}
+div.button p.first-p{
+ 	color: white;
+ 	font-weight: bold;
+ 	font-size: 30px;
+ }
+
+ div.button p.second-p {
+ 	color: white;
+ 	font-size: 10px;
+ }
+
+ @media screen and (min-width: 425px){
+ 	iframe{
+ 		height: 500px;
+ 	}
+ }
+
+ div.steps a div {
+ 	background-color: #30a05c;
+ }
