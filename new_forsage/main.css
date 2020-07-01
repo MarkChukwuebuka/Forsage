@@ -1,0 +1,38 @@
+body{
+
+	color: black;
+}
+
+nav{
+	background-color: black;
+	color: white;
+}
+
+a{
+	text-decoration:none;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+div.button {
+	background-color: rgb(1, 116, 119);
+	border-radius: 3px;
+}
+div.button p.first-p{
+ 	color: white;
+ 	font-weight: bold;
+ 	font-size: 30px;
+ }
+
+ div.button p.second-p {
+ 	color: white;
+ 	font-size: 10px;
+ }
+
+ @media screen and (min-width: 425px){
+ 	iframe{
+ 		height: 500px;
+ 	}
+ }
