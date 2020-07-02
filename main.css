@@ -22,7 +22,8 @@ div.button {
 }
 
 div.button:hover{
-	background-color: black;
+	color:black;
+	
 }
 
 div.button p.first-p{
