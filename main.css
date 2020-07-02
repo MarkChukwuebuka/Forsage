@@ -1,10 +1,10 @@
 body{
-	background-color: rgb(1, 116, 119);
-	color: black;
+	background-color: black;
+	color: white;
 }
 
 nav{
-	background-color: black;
+	background-color: rgb(1, 116, 119);
 	color: white;
 }
 
@@ -17,7 +17,7 @@ a:hover{
 }
 
 div.button {
-	background-color: red;
+	background-color: rgb(1, 116, 119);
 	border-radius: 3px;
 }
 
