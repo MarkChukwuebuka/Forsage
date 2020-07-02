@@ -1,5 +1,5 @@
 body{
-	background-color: #001a66;
+	background-color: rgb(1, 116, 119);
 	color: black;
 }
 
@@ -17,9 +17,14 @@ a:hover{
 }
 
 div.button {
-	background-color: rgb(1, 116, 119);
+	background-color: red;
 	border-radius: 3px;
 }
+
+div.button:hover{
+	background-color: black;
+}
+
 div.button p.first-p{
  	color: white;
  	font-weight: bold;
@@ -28,7 +33,7 @@ div.button p.first-p{
 
  div.button p.second-p {
  	color: white;
- 	font-size: 10px;
+ 	font-size: 15px;
  }
 
  @media screen and (min-width: 425px){

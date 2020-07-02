@@ -1,0 +1,72 @@
+body {
+	background-color: black;
+	color: white;
+}
+nav{
+	background-color: blue;
+}
+
+nav p {
+	font-weight: bold;
+	font-family: Arial, Verdana, "Sans-serif";
+}
+
+.heading {
+	font-size: 250%;
+	font-weight: bold;
+	font-family: Arial, Verdana, "Sans-serif";
+}
+ .underline {
+ 	text-decoration: underline;
+ 	font-size: 120%;
+ 	font-weight: bold;
+ }
+div.send  {
+	color: white;
+	font-weight: bold;
+	font-size: 25px;
+	height: 50px;
+	font-family: "Times New Roman", Times, serif;
+}
+
+div.send {
+	background-color: red;
+	border-radius: 5px;	
+}
+
+i{
+	color: white;
+}
+
+a{
+	text-decoration:none;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+div.button {
+	background-color: rgb(1, 116, 119);
+	border-radius: 3px;
+}
+div.button p.first-p{
+ 	color: white;
+ 	font-weight: bold;
+ 	font-size: 30px;
+ }
+
+ div.button p.second-p {
+ 	color: white;
+ 	font-size: 10px;
+ }
+
+ @media screen and (min-width: 425px){
+ 	iframe{
+ 		height: 500px;
+ 	}
+ }
+
+ div.steps a div {
+ 	background-color: #30a05c;
+ }
