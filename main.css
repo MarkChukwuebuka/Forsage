@@ -22,7 +22,7 @@ div.button {
 }
 
 div.button:hover{
-	color:black;
+	background-color: green;
 	
 }
 
@@ -41,4 +41,7 @@ div.button p.first-p{
  	iframe{
  		height: 500px;
  	}
+ 	img.bonus{
+ 		height: 400px;
+	 }
  }
